@@ -1,0 +1,24 @@
+
+.sobre {
+    background-color: #EAF2FD;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: auto;
+}
+
+.sobre_titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.sobre_texto {
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.2rem;
+    text-align: justify;
+}

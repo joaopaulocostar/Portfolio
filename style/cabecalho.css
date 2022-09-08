@@ -1,0 +1,62 @@
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:2.5rem ;
+    padding-bottom: 6.5rem;
+    height: 3vh;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.cabecalho_Logo{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.cabecalho_imagem{
+    margin-right: 0.6rem;
+    border-style: none;
+}
+
+.cabecalho_nome{
+    font-family: 'Raleway';
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2rem;
+    color: #464646;
+}
+
+.cabecalho_nav_lista{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.cabecalho_nav_lista_item{
+    margin-right: 2rem;
+}
+
+.cabecalho_link{
+    color: #464646;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family:'Raleway' ;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+
+
