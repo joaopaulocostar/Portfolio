@@ -1,0 +1,50 @@
+.skills {
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: auto;
+}
+
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.skills_titulo {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.skills_lista{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.skill_item{
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    justify-content: center;
+    padding: 2rem 2rem;
+    width: 8rem;
+    border-radius: 18rem;
+}
+
+.skill_item_imagem{
+    margin-bottom: 0.5rem;
+}
+
+.skill_item_legenda {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+

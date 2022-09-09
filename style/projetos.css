@@ -1,0 +1,99 @@
+.projeto {
+    height: 100vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+}
+
+
+.titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5rem;
+}
+
+.projeto_item {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+    justify-content: space-around;
+    margin: 0 auto 9vh auto;
+    width: 100%;
+}
+
+.projeto_item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.projeto_imagem-decodificador {
+    background: url(../image/Rectangle.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    margin: 0 2rem;
+    width: 55%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.projeto_corpo {
+    align-items: ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 35vh;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+
+
+.projeto_titulo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.projeto_descricao {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.projeto_botao {
+    display: flex;
+    gap: 1rem;
+}
+
+.projeto_botao_repositorio {
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.projeto_botao_page {
+    background-color: #2A7AE4;
+    border: none;
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+
+.projeto_imagem-forca {
+    background: url(../image/jogo_da_forca.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    margin: 0 2rem;
+    width: 55%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}

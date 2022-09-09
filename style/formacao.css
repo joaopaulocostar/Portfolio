@@ -1,0 +1,56 @@
+.formacao {
+    background-color: #EAF2FD ;
+    padding-bottom: 5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 5rem;
+}
+
+.formacao_titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.formacao_lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.formacao_item {
+    height: 45%;
+    width: 20rem;
+}
+
+.formacao_item_imagem {
+    align-items: center;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 13rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.imagem_Instituto {
+    height: 130px;
+    width: 192px;
+}
+
+.formacao_curso {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.formacao_status {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 0;
+}
