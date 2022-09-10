@@ -24,7 +24,7 @@
 
 .formacao_item {
     height: 45%;
-    width: 20rem;
+    width: 28%;
 }
 
 .formacao_item_imagem {
@@ -53,4 +53,60 @@
     font-size: 1rem;
     font-weight: 500;
     margin-top: 0;
+}
+
+@media screen and (max-width:1024px){
+    .formacao{
+        padding-bottom: 3rem;
+    }
+
+    .imagem_Instituto{
+        height: 98px;
+        width: 142px;
+     }
+
+     .formacao_curso{
+        font-size: 1.15rem;
+    } 
+
+    .formacao_item{
+        width: 25%;
+    }
+
+}
+
+@media screen and (max-width:960px){ 
+    .formacao{
+        padding-bottom: 2rem;
+    }
+
+    .formacao_curso{
+        font-size: 1rem;
+    } 
+
+    .formacao_status{
+        font-size: 0.875rem;
+    }
+
+    .formacao_item_imagem{
+        height: 120px;
+    }
+    
+    .imagem_Instituto{
+        height: 58px;
+        width: 84px;
+     }
+     .formacao_item{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:425px){
+    .formacao_lista{
+        flex-wrap: wrap;
+    }
+    
+    .formacao_item{
+        width: 35%;
+    }
 }

@@ -60,3 +60,24 @@
 
 
 
+@media screen and (max-width:1024px){
+    .ccabecalho_nav_lista_item{
+        margin-right: 0.5rem;
+    }
+}
+
+@media screen and (max-width:960px){
+    .cabecalho{
+        height: 10vh;
+        padding-bottom: 3.5rem;
+    }
+
+    .hide{
+        display: none;
+    }
+
+}
+
+@media screen and (max-widtg:425px){
+    
+}

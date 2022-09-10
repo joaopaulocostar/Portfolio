@@ -22,3 +22,22 @@
     line-height: 1.2rem;
     text-align: justify;
 }
+
+@media screen and (max-width:2440px) {
+    .sobre__texto{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:960px) {
+    .sobre{
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .sobre__texto{
+        width: 100%;
+    }
+}

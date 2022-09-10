@@ -48,3 +48,25 @@
     font-weight: 700;
 }
 
+@media screen and (max-width:960px){
+    .skills_lista{
+        flex-wrap: wrap;
+    }
+
+    .skills{
+        height: auto;
+        margin-bottom: 2rem;
+        padding-bottom: 0;
+    }
+
+    .skill_item{
+        width: calc((100% - 2rem) / 3);
+    }
+}
+
+@media screen and (max-width:425px){
+    .skill_item{
+        width: calc((100% - 2rem) / 2);
+    }
+}
+

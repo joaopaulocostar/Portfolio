@@ -79,3 +79,35 @@
     height: 37px;
     width: 130px;
 }
+
+@media screen and (max-width:1440px){
+    .formulario {
+        width: 50%;
+    }
+
+    .formulario__input {
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .formulario {
+        width: 70%;
+    }
+
+    .formulario__input {
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:960px){
+    .formulario__botao{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .formulario {
+        width: 100%;
+    }
+}
