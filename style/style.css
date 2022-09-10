@@ -1,0 +1,79 @@
+:root{
+    --cinza-fundo: #F5F5F5;
+    --cinza-texto: #464646;
+    --azul-fundo: #EAF2FD;
+    --azul-botao: #2A7AE4;
+    --raleway: "Raleway", sans-serif;
+    --preto-hover: #406fba;
+}
+
+body {
+    background-color: var(--cinza-fundo);
+    font-family: var(--raleway);
+    font-weight: 400;
+    font-style: normal;
+    color: var(--cinza-texto);
+}
+
+.btn{
+    border: 1px solid black;
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    width: 125px;
+}
+
+.btn:hover, .formulario__botao:hover{
+    transform: scale(1.1);
+}
+
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.titulo{
+    font-size: 2rem;
+    font-size: normal;
+    font-weight: 700;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+
+@media screen and (max-width:1024px){
+    .btn{
+        height: 40px;
+        line-height: 40px;
+        width: 100px;
+        }
+}
+
+@media screen and (max-width:960px) {
+    .titulo{
+        padding: 1rem;
+    }
+
+    .btn{
+        height: 40px;
+        line-height: 40px;
+        width: 110px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .titulo{
+        padding-top: 0.5rem;
+    }
+}
