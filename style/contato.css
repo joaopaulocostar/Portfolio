@@ -5,6 +5,7 @@
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
+    margin-top: 40rem;
 }
 
 .titulo {
@@ -88,6 +89,10 @@
     .formulario__input {
         height: 40px;
     }
+
+    .contato{
+        margin-top: 25rem;
+    }
 }
 
 @media screen and (max-width:1024px){
@@ -98,16 +103,28 @@
     .formulario__input {
         height: 40px;
     }
+
+    .contato{
+        margin-top: 20rem;
+    }
 }
 
 @media screen and (max-width:960px){
     .formulario__botao{
         margin: 0 auto;
     }
+
+    .contato{
+        margin-top: 25rem;
+    }
 }
 
 @media screen and (max-width:425px) {
     .formulario {
         width: 100%;
+    }
+
+    .contato{
+        margin-top: 20rem;
     }
 }

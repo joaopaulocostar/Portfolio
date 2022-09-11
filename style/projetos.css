@@ -31,7 +31,18 @@
 }
 
 .projeto_imagem-decodificador {
-    background: url(../image/Rectangle.png);
+    background: url(../image/Captura\ de\ tela\ -\ Descriptor.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    margin: 0 2rem;
+    width: 55%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.projeto_imagem-conversor {
+    background: url(../image/Captura\ de\ tela-\ conversor\ -gimp.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -87,7 +98,7 @@
 
 
 .projeto_imagem-forca {
-    background: url(../image/jogo_da_forca.png);
+    background: url(../image/Captura\ de\ Tela\ -\ Jogo\ da\ forca.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -141,6 +152,10 @@
         width: 100%;
         align-items: center;
     }
+
+    .projeto_imagem-conversor{
+        width: 100%;
+    }
     
 }
 
@@ -169,6 +184,9 @@
     }
 
     .projeto_imagem-forca{
+        width: 100%;
+    }
+    .projeto_imagem-conversor{
         width: 100%;
     }
 
@@ -205,6 +223,10 @@
     }
 
     .projeto_corpo{
+        width: 100%;
+    }
+
+    .projeto_imagem-conversor{
         width: 100%;
     }
 }
