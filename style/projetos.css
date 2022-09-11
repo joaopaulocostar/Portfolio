@@ -64,8 +64,6 @@
     margin-right: 15rem;
 }
 
-
-
 .projeto_titulo {
     font-size: 1.5rem;
     font-weight: 700;
@@ -79,6 +77,10 @@
 .projeto_botao {
     display: flex;
     gap: 1rem;
+}
+
+.projeto_botao_page:hover, .projeto_botao_repositorio:hover {
+    transform: scale(1.2)
 }
 
 .projeto_botao_repositorio {

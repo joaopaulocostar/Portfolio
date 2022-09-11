@@ -16,6 +16,7 @@
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .contato__paragrafo {
@@ -105,7 +106,7 @@
     }
 
     .contato{
-        margin-top: 20rem;
+        margin-top: 25rem;
     }
 }
 

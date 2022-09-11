@@ -39,6 +39,10 @@
     border-radius: 18rem;
 }
 
+.skill_item:hover {
+    transform: scale(1.2)
+}
+
 .skill_item_imagem{
     margin-bottom: 0.5rem;
 }
