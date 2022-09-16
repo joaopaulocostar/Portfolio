@@ -109,6 +109,17 @@
     margin-left: 5rem;
     margin-right: 5rem;
 }
+.projeto_imagem-e-commerce{
+    background: url(../image/Capturar.PNG);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    margin: 0 2rem;
+    width: 55%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
 
 
 @media screen and (max-width:1421px){
@@ -229,6 +240,10 @@
     }
 
     .projeto_imagem-conversor{
+        width: 100%;
+    }
+
+    .projeto_imagem-e-commerce{
         width: 100%;
     }
 }
