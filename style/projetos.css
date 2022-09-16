@@ -202,17 +202,17 @@
 
 @media screen and (max-width:425px){
     .projeto{
-        margin-bottom: 0;
+        margin-bottom:0;
     }
     
     .projeto_item{
         flex-direction: column;
-        margin-bottom: 0;
+        margin-bottom: 2em;
     }
 
     .projeto_item:nth-child(odd){
         flex-direction: column;
-        margin-bottom: 0;
+        margin-bottom: 2em;
     }
 
     .projeto_imagem-decodificador{
@@ -225,6 +225,7 @@
 
     .projeto_corpo{
         width: 100%;
+        margin-top: 1em;
     }
 
     .projeto_imagem-conversor{
