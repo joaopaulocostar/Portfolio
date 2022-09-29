@@ -120,6 +120,17 @@
     margin-left: 5rem;
     margin-right: 5rem;
 }
+.projeto_imagem-pokedex{
+    background: url(../image/Captura\ de\ tela\ Pokedex.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    margin: 0 2rem;
+    width: 55%;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
 
 
 @media screen and (max-width:1421px){
@@ -168,6 +179,10 @@
     .projeto_imagem-conversor{
         width: 100%;
     }
+
+    .projeto_imagem-pokedex{
+        width: 100%;
+    }
     
 }
 
@@ -202,7 +217,13 @@
         width: 100%;
     }
 
+    .projeto_imagem-e-commerce{
+        width: 100%;
+    }
 
+    .projeto_imagem-pokedex{
+        width: 100%;
+    }
     .projeto_corpo{
         width: 100%;
         align-items: center;
@@ -244,6 +265,10 @@
     }
 
     .projeto_imagem-e-commerce{
+        width: 100%;
+    }
+
+    .projeto_imagem-pokedex{
         width: 100%;
     }
 }
